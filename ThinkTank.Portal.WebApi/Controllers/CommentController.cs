@@ -9,7 +9,6 @@ namespace ThinkTank.Portal.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //
     //[Authorize] // для доступа к контроллеру необходимо авторизироваться
     public class CommentController : ControllerBase
     {

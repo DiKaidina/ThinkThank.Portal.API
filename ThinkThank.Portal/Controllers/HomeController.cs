@@ -23,6 +23,7 @@ public class HomeController : Controller
         _db = db;
     }
 
+    //[IEFilter] пока не использую
     public IActionResult Index(string culture)
     {
         GetCulture(culture);
